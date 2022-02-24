@@ -16,7 +16,7 @@ namespace API.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.2");
 
-            modelBuilder.Entity("API.Entities.product", b =>
+            modelBuilder.Entity("API.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -28,7 +28,7 @@ namespace API.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Nmae")
+                    b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PictureUrl")
